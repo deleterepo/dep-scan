@@ -9,6 +9,7 @@ from urllib.parse import unquote_plus
 import httpx
 from defusedxml.ElementTree import parse
 
+
 from depscan.lib.logger import LOG
 from depscan.lib.utils import cleanup_license_string, find_files
 
